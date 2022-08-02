@@ -687,7 +687,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 #profile { position: relative; position: relative; text-align: center; }
 #profile:after { border-bottom: 1px solid #ddd; content:""; display: block; height: 80px; width: 100%; position: absolute; top: 0; left: 0; right: 0; }
 #profile-inner { position: relative; padding: 80px 40px 40px; }
-#profile-image { border: 1px solid #ddd; width: 150px; height: 150px; display: block; border-radius: 100%; margin: -60px auto 0; }
+#profile-image { border: 1px solid #ddd; width: 150px; height: 150px; position: relative; z-index: 1; display: block; border-radius: 100%; margin: -60px auto 0; }
 #profile-image img { width: 130px; height: 130px; border: 10px solid #eee; position: relative; z-index: 1; display: block; border-radius: 100%; }
 #profile-name { color: rgba(0,0,0,0.8); font-size: 22px; font-weight: 600; line-height: 1.2em; margin-top: 20px; margin-bottom: 10px; }
 #profile-description { font-size: 16px; line-height: 1.6em; font-weight: 300; color: rgba(0,0,0,0.6); position: relative; }
