@@ -132,6 +132,7 @@
 	.sharrre-header .sharrre .box { padding-top: 0; text-align: center; }
 	.sharrre-header .sharrre .count { display: none; }
 	.sharrre-header .sharrre .share { width: 30px; display: block; margin: 10px auto 0; float: none; }
+	.sharrre-header .share { font-size: 18px; }
 	.sharrre-footer .sharrre .share span { display: none; }
 	.sharrre-footer .sharrre .share .fa { bottom: 0; }
 
