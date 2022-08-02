@@ -709,7 +709,15 @@ Kirki::add_field( 'grayzone_theme', array(
 	'section'		=> 'styling',
 	'default'		=> '#333333',
 ) );
-// Styling: Social Sidebar
+// Styling: Sidebar Color
+Kirki::add_field( 'grayzone_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-sidebar',
+	'label'			=> esc_html__( 'Sidebar Color', 'grayzone' ),
+	'section'		=> 'styling',
+	'default'		=> '#eeeeee',
+) );
+// Styling: Social Sidebar Color
 Kirki::add_field( 'grayzone_theme', array(
 	'type'			=> 'color',
 	'settings'		=> 'color-social-sidebar',

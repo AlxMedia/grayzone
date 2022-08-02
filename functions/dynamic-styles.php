@@ -170,6 +170,86 @@ if ( ! function_exists( 'grayzone_dynamic_css' ) ) {
 
 				'."\n";
 			}
+			// sidebar
+			if ( get_theme_mod('color-sidebar','#eeeeee') != '#eeeeee' ) {
+				$styles .= '
+.s1 { background: '.esc_attr( get_theme_mod('color-sidebar') ).'; }
+
+#profile:after { border-bottom: 1px solid rgba(255,255,255,0.15); }
+#profile-image { border: 1px solid rgba(255,255,255,0.15); }
+#profile-image img { border: 10px solid '.esc_attr( get_theme_mod('color-sidebar') ).'; }
+#profile-name { color: #fff; }
+#profile-description { color: rgba(255,255,255,0.6); }
+#profile-description a { color: rgba(255,255,255,0.9); }
+#profile-description a:hover { color: rgba(255,255,255,0.6); }
+
+.sidebar .post-nav li a { border-bottom: 1px solid rgba(255,255,255,0.15); }
+.sidebar .post-nav li a span { color: #fff; }
+.sidebar .post-nav li a:hover span { color: rgba(255,255,255,0.6); }
+.sidebar .post-nav li a strong { color: rgba(255,255,255,0.6); }
+.sidebar .post-nav li i { color: rgba(255,255,255,0.6); }
+.sidebar .post-nav li a:hover i { color: #fff; }
+
+.sidebar .widget { color: rgba(255,255,255,0.6); }
+.sidebar .widget a { color: rgba(255,255,255,0.8); }
+.sidebar .widget a:hover { color: #fff; }
+.sidebar .widget > h3 { color: #fff; }
+.sidebar .widget > h3 a,
+.sidebar .widget > h3 a:hover { color: #fff; }
+.sidebar .widget select { background: '.esc_attr( get_theme_mod('color-sidebar') ).'; border: 1px solid rgba(255,255,255,0.3); color: rgba(255,255,255,0.6); }
+
+.sidebar .widget > ul li:before,
+.sidebar .widget > ul li a:before,
+.sidebar .widget > div > ul li a:before,
+.sidebar .widget_calendar caption:before { color: rgba(255,255,255,0.3); }
+.sidebar .widget > ul li a:hover:before { color: rgba(255,255,255,0.6); }
+
+.sidebar .widget_archive ul li,
+.sidebar .widget_categories ul li,
+.sidebar .widget_links ul li { color: rgba(255,255,255,0.6); }
+
+.sidebar .widget_recent_comments ul li,
+.sidebar .widget_recent_entries ul li { color: rgba(255,255,255,0.6); }
+
+.sidebar .widget_rss ul li a { color: #fff; }
+.sidebar .widget_rss ul li span.rss-date { color: #fff; }
+.sidebar .widget_rss ul li cite { color: rgba(255,255,255,0.4); }
+
+.sidebar .widget_search input.search { color: #999; }
+
+.sidebar .widget_calendar a { color: #fff; }
+.sidebar .widget_calendar a:hover { color: #fff!important; }
+.sidebar .widget_calendar caption { background: rgba(255,255,255,0.3); color: #fff; }
+.sidebar .widget_calendar caption:before { color: rgba(255,255,255,0.7); }
+.sidebar .widget_calendar thead { background: rgba(255,255,255,0.1); box-shadow: inset 0 -1px 0 rgba(255,255,255,0.2); }
+.sidebar .widget_calendar th, 
+.sidebar .widget_calendar td { border: 1px solid rgba(255,255,255,0.2); }
+
+.sidebar .alx-tabs-nav { background: rgba(255,255,255,0.15); }
+.sidebar .alx-tabs-nav li a { color: rgba(255,255,255,0.6); }
+.sidebar .alx-tabs-nav li.active a { background: #fff; color: #333; }
+
+.sidebar .alx-tab .tab-item-category,
+.sidebar .alx-posts .post-item-category { color: rgba(255,255,255,0.4); }
+.sidebar .alx-tab .tab-item-title a,
+.sidebar .alx-tab .tab-item-comment a,
+.sidebar .alx-posts .post-item-title a { color: #fff; }
+.sidebar .alx-tab .tab-item-category a:hover,
+.sidebar .alx-posts .post-item-category a:hover { color: #fff!important; }
+.sidebar .alx-tab .tab-item-date,
+.sidebar .alx-tab .tab-item-name,
+.sidebar .alx-posts .post-item-date  { color: rgba(255,255,255,0.6); }
+.sidebar .alx-tab li:hover .thumb-icon,
+.sidebar .alx-posts li:hover .thumb-icon { background: #fff; color: #111; }
+
+.sidebar .alx-tab .tab-item-category a,
+.sidebar .alx-posts .post-item-category a,
+.sidebar .alx-tab li:hover .tab-item-title a,
+.sidebar .alx-tab li:hover .tab-item-comment a,
+.sidebar .alx-posts li:hover .post-item-title a { color: rgba(255,255,255,0.6); }
+
+				'."\n";
+			}
 			// social sidebar
 			if ( get_theme_mod('color-social-sidebar','#eeeeee') != '#eeeeee' ) {
 				$styles .= '
