@@ -163,11 +163,12 @@ if ( ! function_exists( 'grayzone_dynamic_css' ) ) {
 .card-comments:before { border-left-color: '.esc_attr( get_theme_mod('color-1') ).'; }
 
 @media only screen and (min-width: 720px) {
-	.toggle-search,
-	#profile:after { background: '.esc_attr( get_theme_mod('color-1') ).'; }
+	.toggle-search { background: '.esc_attr( get_theme_mod('color-1') ).'; }
 	.toggle-search .svg-icon { fill: #fff; }
 }
-
+@media only screen and (min-width: 1024px) {
+	#profile:after { background: '.esc_attr( get_theme_mod('color-1') ).'; }
+}
 				'."\n";
 			}
 			// sidebar
@@ -189,6 +190,10 @@ if ( ! function_exists( 'grayzone_dynamic_css' ) ) {
 .sidebar .post-nav li a strong { color: rgba(255,255,255,0.6); }
 .sidebar .post-nav li i { color: rgba(255,255,255,0.6); }
 .sidebar .post-nav li a:hover i { color: #fff; }
+
+@media only screen and (max-width: 719px) {
+	.sidebar .post-nav li.previous { border-top: 0; }
+}
 
 .sidebar .widget { color: rgba(255,255,255,0.6); }
 .sidebar .widget a { color: rgba(255,255,255,0.8); }
