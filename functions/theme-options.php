@@ -693,6 +693,14 @@ Kirki::add_field( 'grayzone_theme', array(
 		'step'	=> '1',
 	),
 ) );
+// Styling: Header Color
+Kirki::add_field( 'grayzone_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-header',
+	'label'			=> esc_html__( 'Header Color', 'grayzone' ),
+	'section'		=> 'styling',
+	'default'		=> '#eeeeee',
+) );
 // Styling: Primary Color
 Kirki::add_field( 'grayzone_theme', array(
 	'type'			=> 'color',
@@ -700,6 +708,14 @@ Kirki::add_field( 'grayzone_theme', array(
 	'label'			=> esc_html__( 'Primary Color', 'grayzone' ),
 	'section'		=> 'styling',
 	'default'		=> '#333333',
+) );
+// Styling: Social Sidebar
+Kirki::add_field( 'grayzone_theme', array(
+	'type'			=> 'color',
+	'settings'		=> 'color-social-sidebar',
+	'label'			=> esc_html__( 'Social Sidebar Color', 'grayzone' ),
+	'section'		=> 'styling',
+	'default'		=> '#eeeeee',
 ) );
 // Styling: Background Color
 Kirki::add_field( 'grayzone_theme', array(

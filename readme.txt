@@ -87,5 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.1 - 2022-08-02 =
+* Added header color styling option
+* Added social sidebar color styling option
+
 = 1.0.0 - 2022-08-02 =
 * Initial release

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Grayzone\n"
-"POT-Creation-Date: 2022-08-02 12:02+0200\n"
+"POT-Creation-Date: 2022-08-02 15:43+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -756,10 +756,18 @@ msgid ""
 msgstr ""
 
 #: functions/theme-options.php:700
-msgid "Primary Color"
+msgid "Header Color"
 msgstr ""
 
 #: functions/theme-options.php:708
+msgid "Primary Color"
+msgstr ""
+
+#: functions/theme-options.php:716
+msgid "Social Sidebar Color"
+msgstr ""
+
+#: functions/theme-options.php:724
 msgid "Background Color"
 msgstr ""
 
