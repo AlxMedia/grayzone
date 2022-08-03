@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.3 - 2022-08-03 =
+* Changed theme description
+
 = 1.0.2 - 2022-08-02 =
 * Added sidebar color styling option
 
