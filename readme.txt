@@ -87,6 +87,10 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.4 - 2022-08-03 =
+* Tweaked featured slider and featured image in single view for mobile sizes
+* Updated screenshot
+
 = 1.0.3 - 2022-08-03 =
 * Added new layout for category pages, show two featured articles up top
 * Changed theme description
