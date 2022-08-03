@@ -994,7 +994,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
  *  Post Entry
 /* ------------------------------------------------------------------------- */
 .article-card { overflow: hidden; }
-.list-card { margin: 0 auto; max-width: 1280px; position: relative; padding: 40px; border-bottom: 1px solid rgba(0,0,0,0.05); transition: background-color .2s,border-color .2s,padding .2s; }
+.list-card { height: 100%; box-sizing: border-box; margin: 0 auto; max-width: 1280px; position: relative; padding: 40px; border-bottom: 1px solid rgba(0,0,0,0.05); transition: background-color .2s,border-color .2s,padding .2s; }
 .list-card:hover { background: rgba(255,255,255,0.3); }
 .list-card:hover .thumb-icon { background: #fff; color: #111; }
 .list-card-wrap { display: block; position: relative; padding-left: 230px; min-height: 140px; }
@@ -1020,6 +1020,17 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .list-card-category a { background: #eee; color: rgba(255,255,255,0.7); display: inline-block; padding: 2px 10px; border-radius: 20px; margin-top: -2px; }
 .list-card-category a:hover { color: #333; }
 .list-card:hover .list-card-category a { background: #ddd; }
+
+@media only screen and (min-width: 1200px) {
+	.category-featured-card { display: flex; }
+	.category-featured-card .article-card { width: 50%; float: left; }
+	.category-featured-card .article-card:first-child { box-shadow: inset -1px 0 0 rgba(0,0,0,0.05); }
+	.category-featured-card .list-card-wrap { padding: 0; }
+	.category-featured-card .list-card-left { position: static; margin-bottom: 20px; }
+	.category-featured-card .list-card-image { height: 174px; width: 100%; }
+}
+
+.category.paged .category-featured-card { display: none; }
 
 .card-comments { background: #333; color: #fff; padding: 1px 8px; position: absolute; left: 0; top: 24px; transition: all 0.2s ease; }
 .card-comments:hover { padding-left: 20px; }
