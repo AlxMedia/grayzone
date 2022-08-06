@@ -87,6 +87,10 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.5 - 2022-08-06 =
+* Changed content area from gray to white background
+* Updated screenshot
+
 = 1.0.4 - 2022-08-03 =
 * Tweaked featured slider and featured image in single view for mobile sizes
 * Updated screenshot
