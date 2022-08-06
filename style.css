@@ -1,7 +1,7 @@
 /*
 Theme Name: Grayzone
 Theme URI: http://alx.media/themes/grayzone/
-Version: 1.0.5
+Version: 1.0.6
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 6.0
@@ -909,7 +909,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .featured-author img { border-radius: 100%; }
 .featured-date,
 .featured-category { margin-top: 12px; }
-.featured-category a { background: rgba(255,255,255,0.2); box-shadow: inset 0 1px 0 rgba(255,255,255,0.15); color: rgba(255,255,255,0.7); display: inline-block; padding: 2px 10px; border-radius: 20px; margin-top: -2px; }
+.featured-category a { background: rgba(255,255,255,0.2); box-shadow: inset 0 1px 0 rgba(255,255,255,0.15); color: rgba(255,255,255,0.7); display: inline-block; padding: 2px 10px; border-radius: 20px; margin-top: -2px; margin-bottom: 6px; }
 .featured-category a:hover { background: rgba(255,255,255,0.4); color: #fff; }
 
 .more-link { background: #f4f4f4; color: #999; display: block; padding: 16px; position: absolute; right: 0; bottom: 0; }
@@ -1017,7 +1017,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .list-card-author img { border-radius: 100%; display: block; }
 .list-card-date,
 .list-card-category { margin-top: 4px; }
-.list-card-category a { background: #f4f4f4; color: rgba(255,255,255,0.7); display: inline-block; padding: 2px 10px; border-radius: 20px; margin-top: -2px; }
+.list-card-category a { background: #f4f4f4; color: rgba(255,255,255,0.7); display: inline-block; padding: 2px 10px; border-radius: 20px; margin-top: -2px; margin-bottom: 6px; }
 .list-card-category a:hover { color: #333; }
 .list-card:hover .list-card-category a { background: #ddd; }
 
@@ -1478,19 +1478,11 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 .wp-pagenavi a:active,
 .wp-pagenavi span.current { color: #333; }
 
-.wp-pagenavi a { background: #e5e5e5; border-radius: 20px; color: #333; border: none; box-shadow: inset 0 1px 0 rgba(0,0,0,0.05); }
+.wp-pagenavi a { background: #f4f4f4; border-radius: 20px; color: #333; border: none; box-shadow: inset 0 1px 0 rgba(0,0,0,0.05); }
 .wp-pagenavi a:hover,
 .wp-pagenavi a:active,
-.wp-pagenavi span.current { background: #eee; border-radius: 20px; border: none; box-shadow: 0 1px 0 rgba(0,0,0,0.05); }
+.wp-pagenavi span.current { background: #e5e5e5; border-radius: 20px; border: none; box-shadow: inset 0 1px 0 rgba(0,0,0,0.05); }
 
-/*  plugin : jetpack infinite scroll
-/* ------------------------------------ */
-.infinite-scroll .infinite-wrap { }
-.infinite-scroll #infinite-handle { position: absolute; bottom: -100px; width: 100%; text-align: center; }
-.infinite-scroll #infinite-handle span { background: #fff; display: inline-block!important; box-shadow: 0 0 10px rgba(0,0,0,0.05); font-size: 18px; color: #333; font-weight: 600; padding: 20px 26px; border-radius: 10px; }
-.infinite-scroll #infinite-handle span:before { font-family: "Font Awesome 5 Free"; font-weight: 900; font-style: normal; font-variant: normal; text-rendering: auto; line-height: 1; content: "\f067"; margin-right: 10px; }
-.infinite-scroll .content { padding-bottom: 160px; }
-.infinite-scroll .pagination { display: none; }
 
 /* ------------------------------------------------------------------------- *
  *  Slick Carousel

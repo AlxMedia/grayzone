@@ -40,7 +40,7 @@ add_action( 'after_setup_theme', 'grayzone_load' );
 /* ------------------------------------------------------------------------- */
 	
 	// Content width
-	if ( !isset( $content_width ) ) { $content_width = 740; }
+	if ( !isset( $content_width ) ) { $content_width = 700; }
 
 
 /*  Theme setup

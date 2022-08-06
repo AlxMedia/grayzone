@@ -87,6 +87,11 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.6 - 2022-08-06 =
+* Updated to lighter thumbnail placeholder
+* Tweaked wp-pagenavi styling
+* Fixed category spacing when there are many categories on several rows
+
 = 1.0.5 - 2022-08-06 =
 * Changed content area from gray to white background
 * Updated screenshot
