@@ -87,6 +87,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.7 - 2023-08-04 =
+* Updated to Font Awesome 6.4.2
+
 = 1.0.6 - 2022-08-06 =
 * Updated to lighter thumbnail placeholder
 * Tweaked wp-pagenavi styling

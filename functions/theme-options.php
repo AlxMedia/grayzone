@@ -567,7 +567,7 @@ Kirki::add_field( 'grayzone_theme', array(
 	'label'			=> esc_html__( 'Create Social Links', 'grayzone' ),
 	'description'	=> esc_html__( 'Create and organize your social links', 'grayzone' ),
 	'section'		=> 'social',
-	'tooltip'		=> esc_html__( 'Font Awesome names:', 'grayzone' ) . ' <a href="https://fontawesome.com/v5/search?s=brands" target="_blank"><strong>' . esc_html__( 'View All', 'grayzone' ) . ' </strong></a>',
+	'tooltip'		=> esc_html__( 'Font Awesome names:', 'grayzone' ) . ' <a href="https://fontawesome.com/search?o=r&m=free&f=brands" target="_blank"><strong>' . esc_html__( 'View All', 'grayzone' ) . ' </strong></a>',
 	'row_label'		=> array(
 		'type'	=> 'text',
 		'value'	=> esc_html__('social link', 'grayzone' ),
@@ -584,7 +584,7 @@ Kirki::add_field( 'grayzone_theme', array(
 		'social-icon'	=> array(
 			'type'			=> 'text',
 			'label'			=> esc_html__( 'Icon Name', 'grayzone' ),
-			'description'	=> esc_html__( 'Font Awesome icons. Ex: fa-facebook ', 'grayzone' ) . ' <a href="https://fontawesome.com/v5/search?s=brands" target="_blank"><strong>' . esc_html__( 'View All', 'grayzone' ) . ' </strong></a>',
+			'description'	=> esc_html__( 'Font Awesome icons. Ex: fa-facebook ', 'grayzone' ) . ' <a href="https://fontawesome.com/search?o=r&m=free&f=brands" target="_blank"><strong>' . esc_html__( 'View All', 'grayzone' ) . ' </strong></a>',
 			'default'		=> 'fa-',
 		),
 		'social-link'	=> array(
