@@ -8,7 +8,7 @@ Tags: blog, news, entertainment, one-column, two-columns, right-sidebar, left-si
 
 == Description ==
 
-Grayzone is a flexible blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique design. Set sidebar to the left or right - or no sidebar at all. Set sidebar to the left or right - or no sidebar at all. Pick sidebar colors, header color and primary accent as you wish. Demo: http://demo.alx.media/x/?theme=Grayzone
+Grayzone is a flexible blog theme with plenty of options. Optimized for all devices, this theme will stand out with a unique design. Set sidebar to the left or right - or no sidebar at all. Set sidebar to the left or right - or no sidebar at all. Pick sidebar colors, header color and primary accent as you wish. Demo: https://demo.agnarson.com/?theme=Grayzone
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Grayzone is a flexible blog theme with plenty of options. Optimized for all devi
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
